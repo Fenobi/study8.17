@@ -99,7 +99,7 @@ void BuobleSort(int* a, int n)
 	}
 }
 
-//推排序
+//堆排序
 void AdjustDown(int* a, int n, int parent)
 {
 	int child = parent * 2 + 1;
