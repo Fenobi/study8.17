@@ -1,4 +1,8 @@
-﻿#define _CRT_SECURE_NO_WARNINGS 
+﻿<<<<<<< HEAD
+锘?define _CRT_SECURE_NO_WARNINGS 
+=======
+#define _CRT_SECURE_NO_WARNINGS 
+>>>>>>> 50914c5f854ebfa9b3092ee8af929570a78febd0
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -65,7 +69,11 @@ void Swap(int* x, int* y)
 	*y = tmp;
 }
 
+<<<<<<< HEAD
+//閫夋嫨鎺掑簭
+=======
 //选择排序
+>>>>>>> 50914c5f854ebfa9b3092ee8af929570a78febd0
 void SelectSort(int* a, int n)
 {
 	for (int i = 0; i < n; i++)
@@ -83,7 +91,11 @@ void SelectSort(int* a, int n)
 	}
 }
 
+<<<<<<< HEAD
+//鍐掓场鎺掑簭
+=======
 //冒泡排序
+>>>>>>> 50914c5f854ebfa9b3092ee8af929570a78febd0
 void BuobleSort(int* a, int n)
 {
 	for (int i = 0; i < n; i++)
@@ -99,7 +111,11 @@ void BuobleSort(int* a, int n)
 	}
 }
 
+<<<<<<< HEAD
+//鎺ㄦ帓搴?
+=======
 //推排序
+>>>>>>> 50914c5f854ebfa9b3092ee8af929570a78febd0
 void AdjustDown(int* a, int n, int parent)
 {
 	int child = parent * 2 + 1;
@@ -136,8 +152,13 @@ void HeapSort(int* a, int n)
 	}
 }
 
+<<<<<<< HEAD
+//蹇€熸帓搴? 
+//閫掑綊
+=======
 //快速排序  
 //递归
+>>>>>>> 50914c5f854ebfa9b3092ee8af929570a78febd0
 int GetMidIndex(int* a, int left, int right)
 {
 	int mid = (left + right) / 2;
@@ -261,7 +282,11 @@ void QuickSort(int* a, int begin, int end)
 	QuickSort(a, keyi + 1, end);
 }
 
+<<<<<<< HEAD
+//闈為€掑綊
+=======
 //非递归
+>>>>>>> 50914c5f854ebfa9b3092ee8af929570a78febd0
 void QuickSortNonR(int* a, int begin, int end)
 {
 	ST st;
